@@ -1,4 +1,4 @@
-package example.com.colortest;
+package com.rumit.dynamic_theme_color;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void buttonClick(View view){
-        int red= new Random().nextInt(255);
-        int green= new Random().nextInt(255);
-        int blue= new Random().nextInt(255);
+    public void buttonClick(View view) {
+        int red = new Random().nextInt(255);
+        int green = new Random().nextInt(255);
+        int blue = new Random().nextInt(255);
         ThemeColors.setNewThemeColor(MainActivity.this, red, green, blue);
     }
 }

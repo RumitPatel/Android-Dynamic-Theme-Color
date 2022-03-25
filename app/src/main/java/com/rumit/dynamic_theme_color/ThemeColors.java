@@ -1,4 +1,4 @@
-package example.com.colortest;
+package com.rumit.dynamic_theme_color;
 
 import android.app.Activity;
 import android.content.Context;
