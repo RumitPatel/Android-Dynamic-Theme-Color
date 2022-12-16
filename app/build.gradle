@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 33
-    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.rumit.dynamic_theme_color"
         minSdkVersion 26
@@ -25,11 +24,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    // Temporary fix until alpha10
-    packagingOptions {
-        exclude 'META-INF/com.android.tools/proguard/coroutines.pro'
     }
 }
 
