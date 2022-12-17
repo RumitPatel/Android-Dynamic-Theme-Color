@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonClick(View view) {
-
+//        com.rumitpatel.medicinereminder.AppUtils;
     }
 }
