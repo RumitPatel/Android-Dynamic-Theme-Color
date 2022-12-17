@@ -5,6 +5,8 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.rumitpatel.medicinereminder.AppUtils;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonClick(View view) {
-//        com.rumitpatel.medicinereminder.AppUtils;
+        AppUtils appUtils = new AppUtils();
+        appUtils.showToast(this, "My message");
     }
 }
